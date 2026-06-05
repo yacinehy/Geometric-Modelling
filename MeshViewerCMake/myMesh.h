@@ -29,7 +29,6 @@ public:
 	void triangulate();
 	bool triangulate(myFace *);
 	void simplify();
-	void simplify(myVertex *);
 
 	void buildRevolutionSurface(std::vector<myPoint3D> profile, int steps);
 
